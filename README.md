@@ -1,7 +1,7 @@
-# Configuración de Instanbul y Coveralls
+# Integración continua de TypeScript y Node.js mediante GitHub Actions
 
-[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/instanbul-coveralls/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/instanbul-coveralls?branch=main)
+En este repositorio se aloja un ejemplo sencillo que ilustra integración continua de código fuente escrito en TypeScript y
+ejecutado en Node.js a través del uso de [GitHub Actions](https://docs.github.com/en/actions).
 
-En este repositorio se aloja un ejemplo sencillo que permite utilizar [Instanbul](https://istanbul.js.org)
-y [Coveralls](https://coveralls.io) como herramientas de seguimiento del cubrimiento de nuestro código fuente
-escrito en TypeScript.
+También se utiliza la [GitHub Action de Coveralls](https://github.com/marketplace/actions/coveralls-github-action)
+para enviar automáticamente, con cada nuevo push, información sobre el cubrimiento de nuestro código fuente a Coveralls.
